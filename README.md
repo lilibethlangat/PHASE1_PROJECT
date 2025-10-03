@@ -58,7 +58,7 @@ The visualizations showed clear differences in safety performance across aircraf
 Feel free to interact with the visualization online on my [Aircraft Recommendation Tableau Dashboard](https://public.tableau.com/views/AIRCRAFTRECOMMENDATIONDASHBOARD/AIRCRAFTRECOMMENDATIONDASHBOARD?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
 
 ## For more Information
-See the full analysis in the [Jupyter notebook](Aircraft_recommendation.ipynb) or review this  [Jupyter notebook](Aircraft_recommendation.ipynb)
+See the full analysis in the [Jupyter notebook](Aircraft_recommendation.ipynb) or review this  [presentation](Aircraft _recommendation_presentation.pdf)
 
 For more information contact me at  [Lilibeth Chepngetich Langat](mailto:beth13lilib@gmail.com)
 
