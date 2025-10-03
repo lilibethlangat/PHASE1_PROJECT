@@ -1,6 +1,8 @@
 <img src="images/aicraft.jpg" style="width:900px; height:350px;">
+
 # Aircraft Recommendation For Company X
-AUTHOR: [Lilibeth Chepngetich Langat](mailto:beth13lilib@gmail.com)
+
+AUTHOR:   [Lilibeth Chepngetich Langat](mailto:beth13lilib@gmail.com)
 
 # Overview
 This project gives recommendations for a certain company X that is interested in purchasing and operating airplanes for commercial and private enterprises. Analysis of aviation accident data from the the National Transportation Safety Board shows the number of accidents that have happened over the years and the factors surrounding those incidents. The head of the new aviation division can use these findings to help them decide which aircraft to purchase.
@@ -20,53 +22,46 @@ The visualizations showed clear differences in safety performance across aircraf
 
 ### Make/Model Recommendation based on Average Fatalities
 
-<img src="images/Model_Make.png" style="width:900px; height:350px;">
+<img src="images/model_make1.png" style="width:900px; height:350px;">
 
 ### Safest Engine Type Recommendation based on Average Fatalities
 
-<img src="images/engine_type.png" style="width:900px; height:350px;">
+<img src="images/engine_type1.png" style="width:900px; height:350px;">
 
 ### Risk Assessment by Flight Purpose (Commercial vs Private Operations)
 
-<img src="images/flight_purpose.png" style="width:900px; height:350px;">
+<img src="images/flight_purpose1.png" style="width:900px; height:350px;">
 
-# Conclusions & Next Steps
+# Conclusions
 
-From the data, a few clear patterns stood out:
+- Turbofan and Turboprop engines show higher average fatality rates compared to Electric, Geared Turbofan, and Turbo shaft engines. This suggests that if safety is prioritized over performance or speed, the company should favor Reciprocating or emerging low-risk engine technologies.
 
-**1. Some aircraft models are much safer than others.**  
-Models with very low or zero fatal accidents should be the top choices for purchase.
+- Flight purpose plays a major role in accident severity. Personal, Executive, and Local Skydiving operations show significantly higher injury rates, whereas activities like public service, aerial application, and ferry flights have lower severity. This means how the aircraft is used is just as important as which aircraft is chosen.
 
-**2. Engine setup matters.**  
-Aircraft with engines like Electric and Geared turbofan types tend to have fewer severe accidents.
-
-**3. Accident severity changes depending on flight purpose.**  
-Commercial, private, and training flights don’t all carry the same level of risk. Some flight types may require stricter rules or better equipment.
+- Accident trends over time show improvement for some models and stagnation for others. Certain models like the Piper PA28, Cessna 182 and Cirrus Design Corp SR22 show declining accident frequency in recent years, signaling stronger reliability and better safety management practices.
 
 
-## What to Do Next
+# Next Steps for the Company
 
-**Create a shortlist of the safest aircraft models and engine types.**  
-These should be reviewed further for pricing, availability, and maintenance costs.
+- Prioritize low-fatality engine configurations such as Geared Turbofan or Electric where operationally feasible. Avoid high-risk engine setups unless justified by mission requirements.
 
-**Set different safety procedures depending on the type of operation.**  
-For example, commercial flights may need more experienced pilots or better-equipped aircraft.
+- Match aircraft purchases to low-severity flight purposes. If entering commercial or executive charter services, invest heavily in additional training and safety protocols, as these categories carry higher consequences when accidents occur.
 
-**Check how accident trends have changed over the years for top models**  
-If a model keeps improving, it's a strong long-term choice.
+- Shortlist aircraft models with proven declining accident trends. Use models like Cessna 182 or  as benchmark candidates for further cost-benefit analysis.
 
+- Perform cost tradeoffs — cross-check insurance premiums, fuel efficiency, and maintenance costs for top safe models to determine which option balances safety and profitability.
 
-These findings give Company X a clear starting point for choosing aircraft that are both safe and practical to operate.
+- Investigate why certain flight purposes lead to higher risks. 
 
 ## For more Information
-See the full analysis in the [Jupyter notebook](main.ipynb) or review this presentation 
+See the full analysis in the [Jupyter notebook](Aircraft_recommendation.ipynb) or review this presentation 
 For more information contact me at  [Lilibeth Chepngetich Langat](mailto:beth13lilib@gmail.com)
 
 # Repository Structure
-
+```python
 ├── data
 ├── images
 ├── README.md
-├── Aircraft_Recommendation_Presentation.pdf
-└── main.ipynb
-
+├── Aircraft_recommmendation_presentation.pdf
+└── Aircraft_recommendation.ipynb
+```
