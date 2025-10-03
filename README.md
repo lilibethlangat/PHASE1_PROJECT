@@ -49,12 +49,17 @@ The visualizations showed clear differences in safety performance across aircraf
 
 - Shortlist aircraft models with proven declining accident trends. Use models like Cessna 182 or  as benchmark candidates for further cost-benefit analysis.
 
-- Perform cost tradeoffs — cross-check insurance premiums, fuel efficiency, and maintenance costs for top safe models to determine which option balances safety and profitability.
+- Perform cost tradeoffs, cross-check insurance premiums, fuel efficiency, and maintenance costs for top safe models to determine which option balances safety and profitability.
 
-- Investigate why certain flight purposes lead to higher risks. 
+- Investigate why certain flight purposes lead to higher risks.
+
+## Tableau Dashboard
+
+Feel free to interact with the visualization online on my [Aircraft Recommendation Tableau Dashboard](https://public.tableau.com/views/AIRCRAFTRECOMMENDATIONDASHBOARD/AIRCRAFTRECOMMENDATIONDASHBOARD?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
 
 ## For more Information
-See the full analysis in the [Jupyter notebook](Aircraft_recommendation.ipynb) or review this presentation 
+See the full analysis in the [Jupyter notebook](Aircraft_recommendation.ipynb) or review this [presentation](Aircraft_recommendation.pdf)
+
 For more information contact me at  [Lilibeth Chepngetich Langat](mailto:beth13lilib@gmail.com)
 
 # Repository Structure
