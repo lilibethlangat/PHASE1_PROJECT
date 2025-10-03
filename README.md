@@ -20,7 +20,7 @@ The dataset was cleaned by handling missing values through a mix of imputation a
 # Results
 The visualizations showed clear differences in safety performance across aircraft types. Certain models consistently recorded zero or near-zero fatal injuries, making them strong candidates for acquisition. Engine analysis revealed that  engines like Electric and Geared turbofan types tend to have fewer severe accidents. The barchart comparing flight purposes indicated that some operations experience more severe outcomes than others, suggesting the need for different safety policies depending on use case.
 
-### Make/Model Recommendation based on Average Fatalities
+### Accident Trends by Aircraft Model Over Time
 
 <img src="images/model_make1.png" style="width:900px; height:350px;">
 
@@ -62,6 +62,6 @@ For more information contact me at  [Lilibeth Chepngetich Langat](mailto:beth13l
 ├── data
 ├── images
 ├── README.md
-├── Aircraft_recommmendation_presentation.pdf
+├── Aircraft_recommendation_presentation.pdf
 └── Aircraft_recommendation.ipynb
 ```
